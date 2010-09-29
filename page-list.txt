@@ -1,0 +1,49 @@
+   Main Page
+   MediaWiki:Sidebar
+   MediaWiki:Portal-url
+   Community Portal
+
+   Category:News
+   Form:News
+   Template:News
+   Property:NewsTag
+   Property:Date
+
+   Category:Announcement
+   Form:Announcement
+   Template:Announcement
+   Property:AnnouncementTag
+
+   Template:Character
+   Template:ConceptArt
+   Template:Environment
+   Template:Prop
+   Template:Scene
+   Template:Shot
+   Category:Character
+   Category:ConceptArt
+   Category:Environment
+   Category:Prop
+   Category:Scene
+   Category:Shot
+   Property:Act
+   Property:Animation status
+   Filter:Animation status
+   Property:Armature status
+   Filter:Armature status
+   Property:Character
+   Property:Duration
+   Property:Material status
+   Filter:Material status
+   Property:Model status
+   Filter:Model status
+   Property:Rig status
+   Filter:Rig status
+   Property:Summary
+   Form:Character
+   Form:ConceptArt
+   Form:Environment
+   Form:Prop
+   Form:Scene
+   Form:Shot
+

@@ -1,0 +1,1067 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="en">
+  <siteinfo>
+    <sitename>CAPODA 2</sitename>
+    <base>http://studio.steren.fr/capoda2/index.php/Main_Page</base>
+    <generator>MediaWiki 1.13.3</generator>
+    <case>first-letter</case>
+      <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">CAPODA 2</namespace>
+      <namespace key="5">CAPODA 2 talk</namespace>
+      <namespace key="6">Image</namespace>
+      <namespace key="7">Image talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="102">Property</namespace>
+      <namespace key="103">Property talk</namespace>
+      <namespace key="104">Type</namespace>
+      <namespace key="105">Type talk</namespace>
+      <namespace key="106">Form</namespace>
+      <namespace key="107">Form talk</namespace>
+      <namespace key="108">Concept</namespace>
+      <namespace key="109">Concept talk</namespace>
+      <namespace key="170">Filter</namespace>
+      <namespace key="171">Filter talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Main Page</title>
+    <id>1</id>
+    <revision>
+      <id>156</id>
+      <timestamp>2009-05-28T22:49:40Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">CAPODA2 is the new movie project of [[User:Xavier|Xavier Dorémus]] and [[User:Steren|Steren Giannini]]. Watch their first movie [http://www.vimeo.com/989180 CAPODA].
+It uses the [http://studio.steren.fr STUDIO DORBEL] platform to test its work-flow. The platform itself will be opened to any project in the future.
+
+You are on the Main page, it is dedicated to the public. Go to the [[Community Portal]] to see the project from the inside.
+
+=News=
+{{#ask:[[Category:News]]|
+ ?Date=|
+ sort=Date|
+ order=desc|
+ format=ul|
+ limit=5
+}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Sidebar</title>
+    <id>39</id>
+    <revision>
+      <id>125</id>
+      <timestamp>2009-05-27T20:17:56Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">* quicklinks
+** mainpage|mainpage-description
+** portal-url|portal
+** recentchanges-url|recentchanges
+** Script|Script
+
+* browse data
+**Special:BrowseData/Scene|Scenes
+**Special:BrowseData/Shot|Shots
+**Special:BrowseData/Character|Characters
+**Special:BrowseData/Environment|Environments
+**Special:BrowseData/Prop|Props
+
+
+
+
+* SEARCH
+* TOOLBOX</text>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Portal-url</title>
+    <id>43</id>
+    <revision>
+      <id>127</id>
+      <timestamp>2009-05-27T20:24:10Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: Community Portal</comment>
+      <text xml:space="preserve">Community Portal</text>
+    </revision>
+  </page>
+  <page>
+    <title>Community Portal</title>
+    <id>44</id>
+    <revision>
+      <id>155</id>
+      <timestamp>2009-05-28T22:49:36Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">[[Special:AddPage/News|Post a public News]]
+
+=Community Announcements=
+
+{{#ask:[[Category:Announcement]]|
+ ?Date=|
+ sort=Date|
+ order=desc|
+ format=ul|
+ limit=5
+}}
+
+
+[[Special:AddPage/Announcement|Post a Community Announcement]]
+
+=Recent Activity=
+{{Special:Recentchanges/5}}
+
+=Let's do it=
+
+
+Start by writing a [[Script]]
+and add some [[:Category:ConceptArt|Concept arts]]
+
+Browse the entire data of this project : [[Special:BrowseData]].
+
+
+
+[[Special:AddPage/Scene| Add a scene]] - [[Special:AddPage/Shot| Add a shot]] -[[Special:AddPage/Character| Add a character]] - [[Special:AddPage/Environment| Add an Environment]] - [[Special:AddPage/Prop| Add a Prop]]
+
+
+Watch the Snapshots
+
+Outils :
+[[Special:Allpages]]
+
+__NOTOC__ __NOEDITSECTION__</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:News</title>
+    <id>40</id>
+    <revision>
+      <id>123</id>
+      <timestamp>2009-05-27T19:40:24Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: Uses the form [[Has default form::Form:News]].  Here is a list of latest news :</comment>
+      <text xml:space="preserve">Uses the form [[Has default form::Form:News]].
+
+Here is a list of latest news :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:News</title>
+    <id>41</id>
+    <revision>
+      <id>150</id>
+      <timestamp>2009-05-28T22:43:01Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'News' form; edit the page to see the source code. You can add a news [[Special:AddPage/News|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{for template|News}}}
+Tags: 
+{{{field|newstags|list|input type=text|autocomplete on property=NewsTag}}}
+
+Date:
+{{{field|newsdate|default=now}}}
+
+Text:
+{{{field|newstext|input type=textarea|rows=10}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:News</title>
+    <id>45</id>
+    <revision>
+      <id>151</id>
+      <timestamp>2009-05-28T22:43:04Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'News' template.
+
+Edit this page to see the source code.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+Posted on [[Date::{{{newsdate}}}]]
+
+{{{newstext}}}
+
+
+tags: {{#arraymap:{{{newstags|}}}|,|xxx|[[NewsTag::xxx]]}}
+
+__NOTOC__
+
+[[Category:News]]
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:NewsTag</title>
+    <id>46</id>
+    <revision>
+      <id>139</id>
+      <timestamp>2009-05-27T21:32:25Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: This is a property of type [[Has type::String|String]].</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String|String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Date</title>
+    <id>52</id>
+    <revision>
+      <id>149</id>
+      <timestamp>2009-05-28T22:42:50Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: This is a property of type [[Has type::Date|Date]].</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::Date|Date]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Announcement</title>
+    <id>48</id>
+    <revision>
+      <id>141</id>
+      <timestamp>2009-05-27T21:36:18Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: Uses the form [[Has default form::Form:Announcement]].  Here is a list of latest announcements :</comment>
+      <text xml:space="preserve">Uses the form [[Has default form::Form:Announcement]].
+
+Here is a list of latest announcements :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Announcement</title>
+    <id>50</id>
+    <revision>
+      <id>159</id>
+      <timestamp>2009-05-28T22:50:35Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Announcement' form; edit the page to see the source code. You can add an announcement [[Special:AddPage/Announcement|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{for template|Announcement}}}
+Tags: 
+{{{field|announcementtags|list|input type=text|autocomplete on property=AnnouncementTag}}}
+
+Date:
+{{{field|announcementdate|default=now}}}
+
+Text:
+{{{field|announcementtext|input type=textarea|rows=10}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Announcement</title>
+    <id>49</id>
+    <revision>
+      <id>158</id>
+      <timestamp>2009-05-28T22:50:31Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">&lt;noinclude&gt;
+This is the 'Announcement' template.
+
+Edit this page to see the source code.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+Posted on [[Date::{{{announcementdate}}}]]
+
+{{{announcementtext}}}
+
+
+tags: {{#arraymap:{{{announcementtags|}}}|,|xxx|[[AnnouncementTag::xxx]]}}
+
+__NOTOC__
+
+[[Category:Announcement]]
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:AnnouncementTag</title>
+    <id>47</id>
+    <revision>
+      <id>140</id>
+      <timestamp>2009-05-27T21:33:02Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: This is a property of type [[Has type::String|String]].</comment>
+      <text xml:space="preserve">This is a property of type [[Has type::String|String]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Character</title>
+    <id>3</id>
+    <revision>
+      <id>84</id>
+      <timestamp>2009-05-27T09:20:14Z</timestamp>
+      <contributor>
+        <ip>91.103.40.50</ip>
+      </contributor>
+      <text xml:space="preserve">= Character Information =
+
+'''Summary:''' [[Summary::{{{summary}}}]]
+
+'''Model Status:''' [[model status::{{{model_status}}}]]
+
+'''Material Status:''' [[material status::{{{material_status}}}]]
+
+'''Armature Status:''' [[armature status::{{{armature_status}}}]]
+
+==Description==
+{{{description}}}
+
+__NOTOC__
+
+[[Category:Character]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ConceptArt</title>
+    <id>4</id>
+    <revision>
+      <id>10</id>
+      <timestamp>2008-12-20T15:50:42Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[Image:{{{image}}}]]
+
+__NOTOC__
+
+[[Category:ConceptArt]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Environment</title>
+    <id>5</id>
+    <revision>
+      <id>99</id>
+      <timestamp>2009-05-27T11:48:44Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">= Environment Information =
+'''Summary:''' [[Summary::{{{summary}}}]]
+
+'''Model Status:''' [[model status::{{{model_status}}}]]
+
+'''Material Status:''' [[material status::{{{material_status}}}]]
+
+==Description==
+{{{description}}}
+
+__NOTOC__
+
+[[Category:Environment]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Prop</title>
+    <id>6</id>
+    <revision>
+      <id>98</id>
+      <timestamp>2009-05-27T11:48:12Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">= Prop Information =
+
+'''Model Status:''' [[model status::{{{model_status}}}]]
+
+'''Material Status:''' [[material status::{{{material_status}}}]]
+
+'''Armature Status:''' [[armature status::{{{armature_status}}}]]
+
+'''Summary:''' [[Summary::{{{summary}}}]]
+
+==Description==
+{{{description}}}
+
+__NOTOC__
+
+[[Category:Prop]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Scene</title>
+    <id>7</id>
+    <revision>
+      <id>96</id>
+      <timestamp>2009-05-27T11:46:23Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">= Scene Information =
+
+'''Duration:''' [[duration::{{{duration}}}]]
+
+'''Summary:''' [[Summary::{{{summary}}}]]
+
+==Description==
+{{{description}}}
+
+
+= Shots =
+
+{{#ask: [[Category:Shot]] [[from scene::{{PAGENAME}}]] 
+}}
+
+
+__NOTOC__
+
+[[Category:Scene]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Shot</title>
+    <id>8</id>
+    <revision>
+      <id>97</id>
+      <timestamp>2009-05-27T11:47:43Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">= Shot Information =
+
+'''From Scene:''' [[from scene::{{{scene}}}]]
+
+'''Duration:''' [[duration::{{{duration}}}]]
+
+'''Summary:''' [[Summary::{{{summary}}}]]
+
+==Description==
+{{{description}}}
+
+
+= Linked Entities =
+
+'''Characters:''' {{#if: {{{characters|}}} | {{#arraymap:{{{characters}}}|,|x|[[Chracter::x]]}} | (none) }}
+
+'''Environments:''' {{#if: {{{environments|}}} | {{#arraymap:{{{environments}}}|,|x|[[Environment::x]]}} | (none) }}
+
+'''Characters:''' {{#if: {{{props|}}} | {{#arraymap:{{{props}}}|,|x|[[Prop::x]]}} | (none) }}
+
+__NOTOC__
+
+[[Category:Shot]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Character</title>
+    <id>9</id>
+    <revision>
+      <id>100</id>
+      <timestamp>2009-05-27T12:30:36Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">Uses the form [[Has default form::Form:Character]]. This category can be browsed using the [[Has filter::Filter:Armature status]], [[Has filter::Filter:Material status]] or [[Has filter::Filter:Model status]].
+
+List of Characters :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:ConceptArt</title>
+    <id>10</id>
+    <revision>
+      <id>22</id>
+      <timestamp>2008-12-20T15:50:47Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[Has default form::Form:ConceptArt]]
+
+Add a concept art :
+&lt;div align=&quot;center&quot;&gt;
+{{#forminput:ConceptArt|35||Add Concept Art|}}
+&lt;/div&gt;
+
+List of Concept arts :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Environment</title>
+    <id>12</id>
+    <revision>
+      <id>104</id>
+      <timestamp>2009-05-27T13:43:53Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">Uses the form [[Has default form::Form:Environment]]. This category can be browsed using the [[Has filter::Filter:Material status]] or [[Has filter::Filter:Model status]].
+
+List of Environments :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Prop</title>
+    <id>13</id>
+    <revision>
+      <id>105</id>
+      <timestamp>2009-05-27T13:45:31Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve">Uses the form [[Has default form::Form:Prop]]. This category can be browsed using the [[Has filter::Filter:Armature status]], [[Has filter::Filter:Material status]] or [[Has filter::Filter:Model status]].
+
+List of Props :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Scene</title>
+    <id>14</id>
+    <revision>
+      <id>30</id>
+      <timestamp>2008-12-20T15:50:48Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[Has default form::Form:Scene]]
+
+List of Scenes :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Category:Shot</title>
+    <id>15</id>
+    <revision>
+      <id>32</id>
+      <timestamp>2008-12-20T15:50:49Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[Has default form::Form:Shot]]
+
+Add a new shot :
+&lt;div align=&quot;center&quot;&gt;
+{{#forminput:Shot|35||Add Shot|}}
+&lt;/div&gt;
+
+List of Shots :</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Act</title>
+    <id>16</id>
+    <revision>
+      <id>34</id>
+      <timestamp>2008-12-20T15:50:51Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[Has Type::Number]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Animation status</title>
+    <id>17</id>
+    <revision>
+      <id>36</id>
+      <timestamp>2008-12-20T15:50:51Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">'''Animation Status''' is an [[has type::Type:Enumeration|enumeration]].  Valid values:
+
+* [[allows value:=Nothing|Nothing]]
+* [[allows value:=Pose to pose|Pose to pose]]
+* [[allows value:=Completed|Completed]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Armature status</title>
+    <id>18</id>
+    <revision>
+      <id>38</id>
+      <timestamp>2008-12-20T15:50:51Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">'''Rig Status''' is an [[has type::Type:Enumeration|enumeration]].  Valid values:
+
+* [[allows value:=Nothing|Nothing]]
+* [[allows value:=In progress|In progress]]
+* [[allows value:=Completed|Completed]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Filter:Armature status</title>
+    <id>36</id>
+    <revision>
+      <id>101</id>
+      <timestamp>2009-05-27T12:31:12Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: This filter covers the property [[Covers property::Property:Armature status|Armature status]].</comment>
+      <text xml:space="preserve">This filter covers the property [[Covers property::Property:Armature status|Armature status]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Character</title>
+    <id>19</id>
+    <revision>
+      <id>40</id>
+      <timestamp>2008-12-20T15:50:51Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">Uses the form [[Has default form::Form:Character]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Duration</title>
+    <id>21</id>
+    <revision>
+      <id>44</id>
+      <timestamp>2008-12-20T15:50:52Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[has type::number]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Material status</title>
+    <id>22</id>
+    <revision>
+      <id>46</id>
+      <timestamp>2008-12-20T15:50:52Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">'''Material Status''' is an [[has type::Type:Enumeration|enumeration]].  Valid values:
+
+* [[allows value:=Nothing|Nothing]]
+* [[allows value:=In progress|In progress]]
+* [[allows value:=Completed|Completed]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Filter:Material status</title>
+    <id>37</id>
+    <revision>
+      <id>102</id>
+      <timestamp>2009-05-27T12:31:38Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: This filter covers the property [[Covers property::Property:Material status|Material status]].</comment>
+      <text xml:space="preserve">This filter covers the property [[Covers property::Property:Material status|Material status]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Model status</title>
+    <id>23</id>
+    <revision>
+      <id>48</id>
+      <timestamp>2008-12-20T15:50:52Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">'''Animation Status''' is an [[has type::Type:Enumeration|enumeration]].  Valid values:
+
+* [[allows value:=Nothing|Nothing]]
+* [[allows value:=In progress|In progress]]
+* [[allows value:=Completed|Completed]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Filter:Model status</title>
+    <id>38</id>
+    <revision>
+      <id>103</id>
+      <timestamp>2009-05-27T12:31:50Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <comment>New page: This filter covers the property [[Covers property::Property:Model status|Model status]].</comment>
+      <text xml:space="preserve">This filter covers the property [[Covers property::Property:Model status|Model status]].</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Rig status</title>
+    <id>24</id>
+    <revision>
+      <id>50</id>
+      <timestamp>2008-12-20T15:50:53Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">#REDIRECT [[Property:Armature status]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Summary</title>
+    <id>25</id>
+    <revision>
+      <id>52</id>
+      <timestamp>2008-12-20T15:50:53Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">[[has type::Text]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Character</title>
+    <id>26</id>
+    <revision>
+      <id>89</id>
+      <timestamp>2009-05-27T09:23:21Z</timestamp>
+      <contributor>
+        <ip>91.103.40.50</ip>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Character' form; edit the page to see the source code. You can add data with this form [[Special:AddPage/Character|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{for template|Character}}}
+
+= Character Information =
+
+'''Summary:'''
+
+{{{field|summary|rows=1}}}
+
+'''Model status:''' 
+{{{field|model_status|default=Nothing}}}
+   
+'''Material status:'''
+{{{field|material_status|default=Nothing}}}
+
+'''Armature status:'''
+{{{field|armature_status|default=Nothing}}}
+
+==Description==
+{{{field|description|rows=15}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:ConceptArt</title>
+    <id>27</id>
+    <revision>
+      <id>56</id>
+      <timestamp>2008-12-20T15:50:53Z</timestamp>
+      <contributor>
+        <username>Steren</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision</comment>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Concept Art' form; edit the page to see the source code. You can add data with this form [[Special:AddPage/ConceptArt|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{info|add title=Add Concept Art|edit title=Edit Concept Art}}}
+
+{{{for template|ConceptArt}}}
+
+'''Image:''' {{{field|image|uploadable}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Environment</title>
+    <id>28</id>
+    <revision>
+      <id>92</id>
+      <timestamp>2009-05-27T09:23:37Z</timestamp>
+      <contributor>
+        <ip>91.103.40.50</ip>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Environment' form; edit the page to see the source code. You can add data with this form [[Special:AddPage/Environment|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{info|add title=Add Task|edit title=Edit Task}}}
+
+{{{for template|Environment}}}
+= Environment Information =
+
+'''Summary:'''
+
+{{{field|summary|rows=1}}}
+
+'''Model status:''' 
+{{{field|model_status|default=Nothing}}}
+   
+'''Material status:'''
+{{{field|material_status|default=Nothing}}}
+
+==Description==
+{{{field|description|rows=15}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Prop</title>
+    <id>29</id>
+    <revision>
+      <id>90</id>
+      <timestamp>2009-05-27T09:23:25Z</timestamp>
+      <contributor>
+        <ip>91.103.40.50</ip>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Prop' form; edit the page to see the source code. You can add data with this form [[Special:AddPage/Prop|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{for template|Prop}}}
+
+= Prop Information =
+
+'''Summary:'''
+
+{{{field|summary|rows=1}}}
+
+'''Model status:''' 
+{{{field|model_status|default=Nothing}}}
+   
+'''Material status:'''
+{{{field|material_status|default=Nothing}}}
+
+'''Armature status:'''
+{{{field|armature_status|default=Nothing}}}
+
+==Description==
+{{{field|description|rows=15}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Scene</title>
+    <id>30</id>
+    <revision>
+      <id>91</id>
+      <timestamp>2009-05-27T09:23:33Z</timestamp>
+      <contributor>
+        <ip>91.103.40.50</ip>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Scene' form; edit the page to see the source code. You can add data with this form [[Special:AddPage/Scene|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{info|add title=Add Scene|edit title=Edit Scene}}}
+
+{{{for template|Scene}}}
+= Scene Information =
+
+'''Duration:''' {{{field|duration}}}
+
+'''Summary:'''
+
+{{{field|summary|rows=2}}}
+
+==Description==
+{{{field|description|rows=15}}}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+  <page>
+    <title>Form:Shot</title>
+    <id>31</id>
+    <revision>
+      <id>93</id>
+      <timestamp>2009-05-27T09:23:42Z</timestamp>
+      <contributor>
+        <ip>91.103.40.50</ip>
+      </contributor>
+      <text xml:space="preserve">__NOTOC__
+&lt;noinclude&gt;
+This is the 'Shot' form; edit the page to see the source code. You can add data with this form [[Special:AddPage/Shot|here]].
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+{{{info|add title=Add Shot|edit title=Edit Shot}}}
+
+{{{for template|Shot}}}
+= Shot Information =
+
+'''From Scene:''' {{{field|scene|autocomplete on=Scene}}}
+
+'''Duration:''' {{{field|duration}}}
+
+'''Summary:'''
+
+{{{field|summary|rows=2}}}
+
+==Description==
+{{{field|description|rows=15}}}
+
+= Linked Entities =
+{| class=&quot;formtable&quot;
+!'''Characters:'''
+|{{{field|characters|list|autocomplete on=Character}}}
+|-
+!'''Environments:'''
+|{{{field|environments|list|autocomplete on=Environment}}}
+|-
+!'''Props:'''
+|{{{field|props|list|autocomplete on=Prop}}}
+|}
+
+{{{end template}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+
+&lt;/includeonly&gt;</text>
+    </revision>
+  </page>
+</mediawiki>

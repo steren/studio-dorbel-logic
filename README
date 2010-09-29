@@ -1,0 +1,9 @@
+This project keep the logical structure of Studio Dorbel.
+
+Studio Dorbel uses MediaWiki and Semantic MediaWiki. The logic is created by the users. TO same the logical system, an export of pages has to be done.
+
+page-list.txt: this file lists the pages that need to be exported.
+
+pages.xml: this file is the result of an export action of the pages from page-list.txt.
+
+To perform an export, go to Special:Export of the wiki of the movie
